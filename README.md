@@ -1,11 +1,5 @@
-# Acifani Tap
+# homebrew-tap
 
-## How do I install these formulae?
+`brew install acifani/tap/formula1-go`
 
-`brew install acifani/tap/<formula>`
-
-Or `brew tap acifani/tap` and then `brew install <formula>`.
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Or `brew tap acifani/tap` and then `brew install formula1-go`.
