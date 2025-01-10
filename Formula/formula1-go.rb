@@ -5,21 +5,21 @@
 class Formula1Go < Formula
   desc "Command-line application to show Formula1 schedules, standings, and results"
   homepage "https://github.com/acifani/formula1-go"
-  version "1.3.5"
+  version "1.3.6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/acifani/formula1-go/releases/download/v1.3.5/formula1-go_1.3.5_darwin_amd64.tar.gz"
-      sha256 "d8682dba3b9992d9343f97ed053b58fa99ea4dd2991a8b0ad64330c8f4dd0cba"
+      url "https://github.com/acifani/formula1-go/releases/download/v1.3.6/formula1-go_1.3.6_darwin_amd64.tar.gz"
+      sha256 "00d7cfd6323b7c3fda702edb0ed548abf59f90cf610464cf50888ace7b8fe775"
 
       def install
         bin.install "f1go"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/acifani/formula1-go/releases/download/v1.3.5/formula1-go_1.3.5_darwin_arm64.tar.gz"
-      sha256 "4b6e0c90a21d67f18d3b755f0cfb73e9895bd5114803b6923812b82145360f04"
+      url "https://github.com/acifani/formula1-go/releases/download/v1.3.6/formula1-go_1.3.6_darwin_arm64.tar.gz"
+      sha256 "f939a9232b09d392dac1be8c28f2529df180bcf763f4595c193856f6d362391b"
 
       def install
         bin.install "f1go"
@@ -30,8 +30,8 @@ class Formula1Go < Formula
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/acifani/formula1-go/releases/download/v1.3.5/formula1-go_1.3.5_linux_amd64.tar.gz"
-        sha256 "6a693a64381dedc5fd851d463131505453806528381cb266c1f122ff9b95fac5"
+        url "https://github.com/acifani/formula1-go/releases/download/v1.3.6/formula1-go_1.3.6_linux_amd64.tar.gz"
+        sha256 "1d706a0d3dffd5756bc98c7273ad32ba0aa5aa065c276a0310b90dd4d392b579"
 
         def install
           bin.install "f1go"
@@ -40,8 +40,8 @@ class Formula1Go < Formula
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/acifani/formula1-go/releases/download/v1.3.5/formula1-go_1.3.5_linux_arm64.tar.gz"
-        sha256 "f291df4e3f5219e034f8abf2f83e9b06d53c912cef006e68bd14d83db826613a"
+        url "https://github.com/acifani/formula1-go/releases/download/v1.3.6/formula1-go_1.3.6_linux_arm64.tar.gz"
+        sha256 "bc0695e8aa6f52239e558ed9dfa80f7c0ac835a708dee82e49842e02e414195f"
 
         def install
           bin.install "f1go"
